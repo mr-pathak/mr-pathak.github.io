@@ -3,7 +3,6 @@ layout: default
 ---
 
 
-{% capture content %}
 <h1>Articles by category: {{ page.slug }}</h1>
 
   {% if site.categories[page.slug] %}
@@ -32,5 +31,3 @@ layout: default
   {% else %}
     <p>There are no posts in this category.</p>
   {% endif %}
-
-{% endcapture %}
