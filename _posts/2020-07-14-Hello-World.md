@@ -1,5 +1,4 @@
 ---
-layout: post
 category: personal
 title: I am up and running!
 ---
